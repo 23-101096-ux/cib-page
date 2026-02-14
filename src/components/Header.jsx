@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Header.css'; 
-// import heroBg from '../src/assets/Image [objectfit].png';
+import Discoverbtn from './Discoverbtn';
+
 
 const Header = () => {
     return (  
@@ -10,7 +11,7 @@ const Header = () => {
       <div className="hero-content">
         <h1>CIB</h1>
         <p>Delivering value to our clients, our<br />community and our shareholders</p>
-        <button className="discover-btn">Discover more</button>
+        <Discoverbtn />
       </div>
     </header>
     );

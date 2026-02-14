@@ -8,15 +8,7 @@
     align-items: center; 
     font-family: Arial, sans-serif;
   }
-/*   
-  .top-orange-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background-color: #f6921e; 
-  } */
+
   
   .hero-content {
     padding-left: 10%; 
@@ -37,18 +29,4 @@
     margin-bottom: 35px;
   }
   
-  .discover-btn {
-    background-color: #1a5eb8; 
-    color: #ffffff;
-    border: none;
-    padding: 12px 28px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 4px; 
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-  }
   
-  .discover-btn:hover {
-    background-color: #124891; 
-  }
