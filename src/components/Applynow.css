@@ -1,0 +1,105 @@
+.apply-section {
+    background-color: #fafafa; 
+    font-family: Arial, sans-serif;
+    padding-bottom: 60px;
+  }
+  
+
+  .tab-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #ffffff;
+    padding: 20px 0;
+    margin: 0;
+    gap: 30px;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .tab-menu li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: all 0.2s ease;
+  }
+  
+  .tab-menu li a.active-tab {
+    border: 2px solid #e31837; 
+    color: #333333;
+  }
+  
+  .tab-menu li a:hover {
+    color: #e31837;
+  }
+  
+
+  .apply-content {
+    text-align: center;
+    padding: 50px 20px 20px;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+  }
+  
+  .main-title {
+    color: #eb8c28; 
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .apply-card {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    padding: 30px 25px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  /* Hover effect for the cards */
+  .apply-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
+    border-color: #e31837; 
+  }
+  
+  /* --- Card Internal Styles --- */
+  .icon-circle {
+    width: 60px;
+    height: 60px;
+    background-color: #f0f5fc; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+  }
+  
+  .apply-card h3 {
+    color: #1a5eb8; 
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.3;
+    margin: 0;
+  }
