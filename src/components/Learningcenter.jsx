@@ -9,16 +9,15 @@ const  Learningcenter= () => {
     return ( 
         <section className="learning-section">
       
-        {/* Section Header */}
+     
         <div className="learning-header">
           <h2>Learning Center</h2>
           <p>Learn more about banking and your finances</p>
         </div>
   
-        {/* Cards Container */}
         <div className="learning-cards-container">
           
-          {/* Card 1 */}
+          
           <div className="learning-card">
             <img 
               src={Img1}
@@ -34,7 +33,7 @@ const  Learningcenter= () => {
             </div>
           </div>
   
-          {/* Card 2 */}
+        
           <div className="learning-card">
             <img 
               src={Img2}
@@ -50,7 +49,7 @@ const  Learningcenter= () => {
             </div>
           </div>
   
-          {/* Card 3 */}
+        
           <div className="learning-card">
             <img 
               src={Img3}
@@ -68,7 +67,7 @@ const  Learningcenter= () => {
   
         </div>
   
-        {/* View More Button at the bottom */}
+   
    <Viewbtn />
       </section>
      );

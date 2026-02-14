@@ -1,4 +1,4 @@
-/* Deep blue background for the whole section */
+
 .cib-section-bg {
     background-color: #1a4f94; 
     padding: 60px 20px;
@@ -12,7 +12,7 @@
     max-width: 1100px;
 }
 
-/* Container for image + card */
+
 .cib-banner-frame {
     position: relative;
     width: 100%;
@@ -28,7 +28,7 @@
     object-fit: cover;
 }
 
-/* The White Info Card */
+
 .cib-floating-card {
     position: absolute;
     top: 50%;
@@ -41,7 +41,7 @@
     z-index: 2;
 }
 
-/* The Orange line at the top of the card */
+
 .cib-orange-top {
     position: absolute;
     top: 0;
@@ -79,10 +79,4 @@
 
 .cib-btn:hover {
     background-color: #143d73;
-}
-
-/* Responsive adjustment for small screens */
-@media (max-width: 768px) {
-    .cib-banner-frame { height: auto; display: flex; flex-direction: column; }
-    .cib-floating-card { position: relative; top: 0; left: 0; transform: none; width: 100%; }
 }

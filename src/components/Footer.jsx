@@ -6,7 +6,7 @@ import Logogoogle from '../assets/Icon-1.png';
 import Logoapp from '../assets/Icon.png';
 import face from '../assets/face.png';
 import ig from '../assets/ig.png';
-import inIcon from '../assets/in.png'; // 'in' is a reserved keyword, so use 'inIcon'
+import inIcon from '../assets/in.png'; 
 import youtube from '../assets/youtube.png';
 import xxx from '../assets/xxx.png';
 import wp from '../assets/wp.png';
@@ -19,12 +19,12 @@ const Footer = () => {
         <footer className="main-footer">
             <div className="footer-top-section">
                 <div className="footer-container">
-                    {/* Left Side: Logo */}
+            
                     <div className="footer-brand">
                         <img src={logoImage} alt="CIB 50 Years" className="footer-main-logo" />
                     </div>
 
-                    {/* Middle: Links Grid */}
+                
                     <div className="footer-links-grid">
                         <div className="link-column">
                             <a href="#">FAQs</a>
@@ -46,7 +46,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Right Side: App Stores */}
+                
                     <div className="footer-apps">
                         <img src={Logogoogle} alt="Get it on Google Play" />
                         <img src={Logoapp} alt="Download on the App Store" />

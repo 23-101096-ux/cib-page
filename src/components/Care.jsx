@@ -15,7 +15,7 @@ const Care = () => {
                 </header>
 
                 <div className="care-grid">
-                    {/* Card 1: Online */}
+              
                     <div className="care-card">
                         <div className="care-icon">
                             <img src={noone} alt="Online" />
@@ -26,7 +26,7 @@ const Care = () => {
                         </div>
                     </div>
 
-                    {/* Card 2: On the phone */}
+                 
                     <div className="care-card">
                         <div className="care-icon">
                             <img src={nootwo} alt="On the phone" />
@@ -37,7 +37,7 @@ const Care = () => {
                         </div>
                     </div>
 
-                    {/* Card 3: In branch */}
+                 
                     <div className="care-card">
                         <div className="care-icon">
                             <img src={noothree} alt="In branch" />

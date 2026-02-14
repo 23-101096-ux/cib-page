@@ -11,7 +11,7 @@ const  New= () => {
       <div className="news-container">
         <hr className="news-divider" />
 
-        {/* News Item 1 */}
+      
         <div className="news-item">
           <img 
             src={Img4} 
@@ -29,7 +29,7 @@ const  New= () => {
 
         <hr className="news-divider" />
 
-        {/* News Item 2 */}
+      
         <div className="news-item">
           <img 
             src={Img4}  
@@ -47,7 +47,7 @@ const  New= () => {
 
         <hr className="news-divider" />
 
-        {/* News Item 3 */}
+     
         <div className="news-item">
           <img 
             src={Img4} 

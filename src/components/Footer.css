@@ -1,10 +1,10 @@
 .main-footer {
-    /* Your background image with the silhouette pattern */
+
     background: #1a2b4d url('../assets/Group 15.png') no-repeat center center;
     background-size: cover;
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* Ensure the silhouette doesn't make text hard to read */
+
     position: relative;
 }
 
@@ -18,13 +18,13 @@
     height: 23vh;
 }
 
-/* Logo Area */
+
 .footer-main-logo {
     width: 170px;
     height: auto;
 }
 
-/* Middle Links */
+
 .footer-links-grid {
     display: flex;
     gap: 70px;
@@ -37,7 +37,7 @@
 }
 
 .link-column a {
-    color: #ffffff; /* CIB footer text is usually high-contrast white */
+    color: #ffffff; 
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
@@ -49,7 +49,7 @@
     opacity: 0.8;
 }
 
-/* App Buttons */
+
 .footer-apps {
     display: flex;
     flex-direction: column;
@@ -62,9 +62,8 @@
     cursor: pointer;
 }
 
-/* The Bottom Legal/Social Section */
 .footer-bottom-section {
-    /* The blue divider line from your screenshot */
+   
     border-top: 1px solid rgba(255, 255, 255, 0.2); 
     padding-top: 20px;
 }
@@ -94,15 +93,15 @@
     border-bottom: 1px solid #ffffff;
 }
 
-/* Social Icons - White with circular bg as per CIB style */
+
 .social-icons {
     display: flex;
     gap: 12px;
 }
 
 .social-icons a {
-    color: #1a2b4d; /* Dark icon */
-    background: #ffffff; /* White circle */
+    color: #1a2b4d; 
+    background: #ffffff; 
     width: 34px;
     height: 34px;
     display: flex;
@@ -114,26 +113,26 @@
 }
 
 .social-icons a:hover {
-    background: #f37021; /* CIB Orange hover */
+    background: #f37021; 
     color: #ffffff;
     transform: translateY(-3px);
 }
 
-/* Copyright Bar - The very bottom strip */
+
 .copyright-bar {
-    background: rgba(0, 0, 0, 0.2); /* Darker contrast */
+    background: rgba(0, 0, 0, 0.2); 
     text-align: right;
     padding: 15px 40px;
     font-size: 12px;
     color: #cbd5e0;
 }
 .main-footer {
-    /* Your background image with the silhouette pattern */
+   
     background: #1a2b4d url('../assets/Group 15.png') no-repeat center center;
     background-size: cover;
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* Ensure the silhouette doesn't make text hard to read */
+   
     position: relative;
 }
 
@@ -146,13 +145,13 @@
     align-items: flex-start;
 }
 
-/* Logo Area */
+
 .footer-main-logo {
     width: 170px;
     height: auto;
 }
 
-/* Middle Links */
+
 .footer-links-grid {
     display: flex;
     gap: 70px;
@@ -165,7 +164,7 @@
 }
 
 .link-column a {
-    color: #ffffff; /* CIB footer text is usually high-contrast white */
+    color: #ffffff;
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
@@ -177,7 +176,7 @@
     opacity: 0.8;
 }
 
-/* App Buttons */
+
 .footer-apps {
     display: flex;
     flex-direction: column;
@@ -190,9 +189,9 @@
     cursor: pointer;
 }
 
-/* The Bottom Legal/Social Section */
+
 .footer-bottom-section {
-    /* The blue divider line from your screenshot */
+   
     border-top: 1px solid rgba(255, 255, 255, 0.2); 
     padding-top: 20px;
 }
@@ -222,7 +221,7 @@
     border-bottom: 1px solid #ffffff;
 }
 
-/* Social Icons - White with circular bg as per CIB style */
+
 .social-icons {
     display: flex;
     gap: 12px;
@@ -242,7 +241,7 @@
 
 
 
-/* Copyright Bar - The very bottom strip */
+
 .copyright-bar {
   
     text-align: right;

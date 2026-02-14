@@ -17,7 +17,7 @@
 }
 
 .part-header h2 {
-    color: #f37021; /* CIB Orange */
+    color: #f37021; 
     font-size: 42px;
     font-weight: 600;
     max-width: 900px;
@@ -63,7 +63,7 @@
 }
 
 .part-btn {
-    background-color: #1a4f94; /* CIB Blue */
+    background-color: #1a4f94; 
     color: white;
     border: none;
     padding: 15px 40px;

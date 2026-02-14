@@ -1,7 +1,7 @@
 import React from 'react';
 import './Awards.css';
 
-// Import your three award images here
+
 import first from '../assets/first.png';
 import second from '../assets/second.png';
 import third from '../assets/third.png';
@@ -16,21 +16,22 @@ const Awards = () => {
                 </header>
 
                 <div className="awards-grid">
-                    {/* Award 1 */}
+                
+            
                     <div className="award-item">
                         <img src={first} alt="Best Private Bank in Egypt" />
                         <h3>Best Private Bank in Egypt</h3>
                         <p>Global Finance - 2023</p>
                     </div>
 
-                    {/* Award 2 */}
+              
                     <div className="award-item">
                         <img src={second} alt="Best Mergers & Acquisitions Deal in MENA" />
                         <h3>Best Mergers & Acquisitions Deal in MENA</h3>
                         <p>EMEA Finance - 2023</p>
                     </div>
 
-                    {/* Award 3 */}
+                 
                     <div className="award-item">
                         <img src={third} alt="Best Bank in Egypt" />
                         <h3>Best Bank in Egypt</h3>
