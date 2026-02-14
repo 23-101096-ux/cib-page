@@ -1,0 +1,88 @@
+/* Deep blue background for the whole section */
+.cib-section-bg {
+    background-color: #1a4f94; 
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.cib-main-container {
+    width: 100%;
+    max-width: 1100px;
+}
+
+/* Container for image + card */
+.cib-banner-frame {
+    position: relative;
+    width: 100%;
+    height: 420px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.cib-hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* The White Info Card */
+.cib-floating-card {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    width: 360px;
+    padding: 40px;
+    border-radius: 4px;
+    z-index: 2;
+}
+
+/* The Orange line at the top of the card */
+.cib-orange-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #f37021;
+}
+
+.cib-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.cib-text {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+
+/* The Button */
+.cib-btn {
+    background-color: #1a4f94;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cib-btn:hover {
+    background-color: #143d73;
+}
+
+/* Responsive adjustment for small screens */
+@media (max-width: 768px) {
+    .cib-banner-frame { height: auto; display: flex; flex-direction: column; }
+    .cib-floating-card { position: relative; top: 0; left: 0; transform: none; width: 100%; }
+}

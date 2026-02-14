@@ -4,6 +4,8 @@ import Header from "../components/Header";
 import Applynow from '../components/Applynow';
 import Learningcenter from '../components/Learningcenter';
 import New from '../components/New';
+import Sus from '../components/Sus';
+
 const Home = () => {
     return (  
        <>
@@ -12,6 +14,7 @@ const Home = () => {
        <Applynow />
        <Learningcenter />
        <New />
+        <Sus />
        </>
     );
 }

@@ -75,14 +75,13 @@
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
   
-  /* Hover effect for the cards */
   .apply-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
     border-color: #e31837; 
   }
   
-  /* --- Card Internal Styles --- */
+
   .icon-circle {
     width: 60px;
     height: 60px;
