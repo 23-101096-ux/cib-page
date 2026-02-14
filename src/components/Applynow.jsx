@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Applynow.css'; 
 
+
 const Applynow = () => {
     return ( 
 <section className="apply-section">
@@ -50,7 +51,7 @@ const Applynow = () => {
         </div>
       </div>
     </section>
-    
+
      );
 }
  
