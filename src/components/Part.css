@@ -1,0 +1,82 @@
+.part-section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.part-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.part-header h5 {
+    color: #888;
+    letter-spacing: 4px;
+    font-size: 13px;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+}
+
+.part-header h2 {
+    color: #f37021; /* CIB Orange */
+    font-size: 42px;
+    font-weight: 600;
+    max-width: 900px;
+    margin: 0 auto 80px auto;
+    line-height: 1.2;
+}
+
+.part-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 70px;
+}
+
+.part-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.logo-box {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.logo-box img {
+    max-width: 220px;
+    max-height: 90px;
+    object-fit: contain;
+}
+
+.part-item h4 {
+    color: #333;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.4;
+    min-height: 50px;
+}
+
+.part-btn {
+    background-color: #1a4f94; /* CIB Blue */
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.part-btn:hover {
+    background-color: #143d73;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(26, 79, 148, 0.3);
+}
+

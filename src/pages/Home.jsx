@@ -5,6 +5,10 @@ import Applynow from '../components/Applynow';
 import Learningcenter from '../components/Learningcenter';
 import New from '../components/New';
 import Sus from '../components/Sus';
+import Part from '../components/Part';
+import Awards from '../components/Awards';
+import Care from '../components/Care';
+import Footer from '../components/Footer';
 
 const Home = () => {
     return (  
@@ -15,6 +19,10 @@ const Home = () => {
        <Learningcenter />
        <New />
         <Sus />
+        <Part />
+        <Awards />
+        <Care />
+        <Footer />
        </>
     );
 }

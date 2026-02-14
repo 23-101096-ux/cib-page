@@ -1,0 +1,252 @@
+.main-footer {
+    /* Your background image with the silhouette pattern */
+    background: #1a2b4d url('../assets/Group 15.png') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Ensure the silhouette doesn't make text hard to read */
+    position: relative;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:700px 20px 500px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 23vh;
+}
+
+/* Logo Area */
+.footer-main-logo {
+    width: 170px;
+    height: auto;
+}
+
+/* Middle Links */
+.footer-links-grid {
+    display: flex;
+    gap: 70px;
+}
+
+.link-column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.link-column a {
+    color: #ffffff; /* CIB footer text is usually high-contrast white */
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    transition: opacity 0.3s;
+}
+
+.link-column a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/* App Buttons */
+.footer-apps {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-apps img {
+    width: 130px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* The Bottom Legal/Social Section */
+.footer-bottom-section {
+    /* The blue divider line from your screenshot */
+    border-top: 1px solid rgba(255, 255, 255, 0.2); 
+    padding-top: 20px;
+}
+
+.bottom-flex {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.legal-links {
+    display: flex;
+    gap: 30px;
+}
+
+.legal-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    border-bottom: 1px solid transparent;
+}
+
+.legal-links a:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+/* Social Icons - White with circular bg as per CIB style */
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.social-icons a {
+    color: #1a2b4d; /* Dark icon */
+    background: #ffffff; /* White circle */
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background: #f37021; /* CIB Orange hover */
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+/* Copyright Bar - The very bottom strip */
+.copyright-bar {
+    background: rgba(0, 0, 0, 0.2); /* Darker contrast */
+    text-align: right;
+    padding: 15px 40px;
+    font-size: 12px;
+    color: #cbd5e0;
+}
+.main-footer {
+    /* Your background image with the silhouette pattern */
+    background: #1a2b4d url('../assets/Group 15.png') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Ensure the silhouette doesn't make text hard to read */
+    position: relative;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Logo Area */
+.footer-main-logo {
+    width: 170px;
+    height: auto;
+}
+
+/* Middle Links */
+.footer-links-grid {
+    display: flex;
+    gap: 70px;
+}
+
+.link-column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.link-column a {
+    color: #ffffff; /* CIB footer text is usually high-contrast white */
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    transition: opacity 0.3s;
+}
+
+.link-column a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/* App Buttons */
+.footer-apps {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-apps img {
+    width: 130px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* The Bottom Legal/Social Section */
+.footer-bottom-section {
+    /* The blue divider line from your screenshot */
+    border-top: 1px solid rgba(255, 255, 255, 0.2); 
+    padding-top: 20px;
+}
+
+.bottom-flex {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.legal-links {
+    display: flex;
+    gap: 30px;
+}
+
+.legal-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    border-bottom: 1px solid transparent;
+}
+
+.legal-links a:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+/* Social Icons - White with circular bg as per CIB style */
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.social-icons a {
+
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 18px;
+   
+}
+
+
+
+/* Copyright Bar - The very bottom strip */
+.copyright-bar {
+  
+    text-align: right;
+    padding: 15px 40px;
+    font-size: 12px;
+    color: #cbd5e0;
+}
